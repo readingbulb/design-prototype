@@ -9102,8 +9102,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       display: table; }
     #user-dashboard .user-dashboard-topnav a:after, #single-content .user-dashboard-topnav a:after {
       clear: both; }
+  #user-dashboard .user-dashboard-topnav .top-nav a, #single-content .user-dashboard-topnav .top-nav a {
+    color: rgba(111, 85, 72, 0.4); }
   #user-dashboard .user-dashboard-topnav .top-nav a.active, #single-content .user-dashboard-topnav .top-nav a.active {
-    border-top: 2px solid #947160; }
+    color: #4a3930; }
   #user-dashboard .user-dashboard-topnav .side-nav a, #single-content .user-dashboard-topnav .side-nav a {
     display: block;
     padding: 0 1rem; }

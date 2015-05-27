@@ -3,132 +3,150 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="ReadingBulb - Styleguides">
     
-    <title>ReadingBulb - Frontend Prototype</title>
+    <title>ReadingBulb - Styleguide</title>
 
     <!-- Favicon -->
-    
+    <link rel="icon" href="favicon.ico" sizes="32x32">
 
 
     <!--  Android 5 Chrome Color-->
     <meta name="theme-color" content="#EE6E73">
 
     <!-- CSS-->
-    <link rel="stylesheet" href="style/proto.css" >
+    <link rel="stylesheet" href="vendor/prism/themes/prism.css" >
+    <link rel="stylesheet" href="style/styleguide.css" >
 </head>
 
-<body id="user-dashboard">
+<body>
+    <header>
 
-    <header class="navbar-fixed">
+        <div class="container">
+            <a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle"><i class="fa fa-bars"></i></a>
+        </div>
 
-        <nav class="user-dashboard-topnav">
+        <ul id="nav-mobile" class="side-nav fixed">
+            <!-- 
+            <li class="logo">
+                <a id="logo-container" href="#" class="brand-logo">LOGO</a>
+            </li>
+            -->
 
-            <div class="nav-wrapper nav">
-
-                <ul class="row top-nav">
-                    <li class="col s3 center-align">
-                        <a class="active" href="partial/prototype/dashboard-user-latest.html" ><span class="nav-icon fa fa-star-o"></span><span class="nav-text">&nbsp;Featured</span></a>
+            <li class="no-padding">
+                <ul class="collapsible collapsible-accordion">
+                    <li class="bold"><a class="collapsible-header  waves-effect waves-teal">CSS</a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="partial/styleguide/color.html">Color</a></li>
+                                <li><a href="partial/styleguide/grid.html">Grid</a></li>
+                                <li><a href="partial/styleguide/helpers.html">Helpers</a></li>
+                                <li><a href="partial/styleguide/media-css.html">Media</a></li>
+                                <li><a href="partial/styleguide/sass.html">Sass</a></li>
+                                <li><a href="partial/styleguide/shadow.html">Shadow</a></li>
+                                <li><a href="partial/styleguide/table.html">Table</a></li>
+                                <li><a href="partial/styleguide/typography.html">Typography</a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="col s3 center-align">
-                        <a class="" href="partial/prototype/dashboard-user-latest.html" ><span class="nav-icon fa fa-bell-o"></span><span class="nav-text">&nbsp;Latest</span></a>
+                    <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Components</a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="partial/styleguide/badges.html">Badges</a></li>
+                                <li><a href="partial/styleguide/buttons.html">Buttons</a></li>
+                                <li><a href="partial/styleguide/cards.html">Cards</a></li>
+                                <li><a href="partial/styleguide/collections.html">Collections</a></li>
+                                <li><a href="partial/styleguide/footer.html">Footer</a></li>
+                                <li><a href="partial/styleguide/forms.html">Forms</a></li>
+                                <li><a href="partial/styleguide/icons.html">Icons</a></li>
+                                <li><a href="partial/styleguide/navbar.html">Navbar</a></li>
+                                <li><a href="partial/styleguide/pagination.html">Pagination</a></li>
+                                <li><a href="partial/styleguide/preloader.html">Preloader</a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="col s3 center-align">
-                        <a class="" href="partial/prototype/dashboard-user-subscribed.html" ><span class="nav-icon fa fa-thumb-tack"></span><span class="nav-text">&nbsp;Subscribed</span></a>
-                    </li>
-                    <li class="col s3 center-align">
-                        <a class="" href="#" ><span class="nav-icon fa fa-plus-square-o"></span><span class="nav-text">&nbsp;Filters</span></a>
+                    <li class="bold"><a class="collapsible-header  waves-effect waves-teal">JavaScript</a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="partial/styleguide/collapsible.html">Collapsible</a></li>
+                                <li><a href="partial/styleguide/dialogs.html">Dialogs</a></li>
+                                <li><a href="partial/styleguide/dropdown.html">Dropdown</a></li>
+                                <li><a href="partial/styleguide/media.html">Media</a></li>
+                                <li><a href="partial/styleguide/modals.html">Modals</a></li>
+                                <li><a href="partial/styleguide/parallax.html">Parallax</a></li>
+                                <li><a href="partial/styleguide/pushpin.html">Pushpin</a></li>
+                                <li><a href="partial/styleguide/scrollfire.html">ScrollFire</a></li>
+                                <li><a href="partial/styleguide/scrollspy.html">Scrollspy</a></li>
+                                <li><a href="partial/styleguide/side-nav.html">SideNav</a></li>
+                                <li><a href="partial/styleguide/tabs.html">Tabs</a></li>
+                                <li><a href="partial/styleguide/transitions.html">Transitions</a></li>
+                                <li><a href="partial/styleguide/waves.html">Waves</a></li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
-
-                <ul class="side-nav" id="side-nav">
-                    <li><a href="#">Menu A</a></li>
-                    <li><a href="#">Menu B</a></li>
-                    <li><a href="#">Menu C</a></li>
-                </ul>
-            </div>
-        </nav>
+            </li>
+        </ul>
     </header>
 
-    <main id="main">
-        <div class="timeline">
+    <main>
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <div class="row">
+                    <h1 class="col s12 white-text center">ReadingBulb</h1>
+                </div>
+                <div class='row center'>
+                    <h4 class="header col s12 light center">The Styleguide</h4>
+                </div>
+                <div class="row center">
+                    <a href="#" class="col s12 m4 offset-m2 waves-effect waves-light btn z-depth-1"><i class="fa fa-arrow-circle-right"></i> Styleguides</a>
+                    <a href="partial/prototype/dashboard-user.html" class="col s12 m4 waves-effect waves-light btn z-depth-1"><i class="fa fa-arrow-circle-right"></i> Prototype</a>
+                </div>
+            </div>
 
-            <div class="row">
+            <div class="github-commit">
+                <div class="container">
+                    <div class="commit">
+                        Latest Commit on Github: &nbsp;&nbsp;
+                        <a href="" class="sha"></a>
+                        &nbsp;&nbsp;
+                        <span class="date"></span>
+                        <a id="github-button" href="#" class="btn-flat right grey-text text-lighten-5 waves-effect waves-light hide-on-small-only">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <div class="col card-col s12">
+        <div class="container">
+            <div class="section">
 
-                    <div class="card">
-                        <!-- <div class="timeline-stone">
-                            <div class="timeline-stone-inner">
-                                <img class="timeline-stone-icon" src="../../asset/image/republika.png" alt="">
-                            </div>
-                        </div> -->
+                <div class="row">
+                    <h3 class="col s12 light center header">Warehouse bomb table San Francisco j pop singularity industrial grade gang ablative sunglasses.</h3>
+                </div>
 
-                        <div class="card-image">
-                            <img src="asset/image/tomorrowland.jpg">
-                        </div>
-                        <div class="card-content">
-                            <h2 class="h3 card-content-title" ><a href="partial/prototype/single-content-1.html">Optimism doesn’t sell</a></h2>
-                            <p class="card-content-meta">
-                                <span class="meta-from">The Daily Example</span>
-                                <span class="meta-writer">Jeff Jarvis</span>
-                            </p>
-                            <p class="card-content-summary">Tomorrowland isn’t selling well. I know the feeling. My book Public Parts didn’t burn up the charts either. Both are about optimism. Optimism isn’t box office. Dystopia is.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#"><span class="fa fa-bookmark-o"></span></a>
-                            <a href="#"><span class="fa fa-external-link"></span></a>
+                <!--   Promo Section   -->
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="center promo">
+                            <h2>Speeds up development</h2>
+                            <p class="light left-align">Media paranoid apophenia youtube realism grenade meta urban tiger team tube Tokyo silent tattoo Shibuya smart woman. Voodoo god numinous man sentient pre Chiba sign physical papier mache saturation point smart range rover.</p>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <!-- <div class="timeline-stone">
-                            <div class="timeline-stone-inner">
-                                <img class="timeline-stone-icon" src="../../asset/image/sindo.png" alt="">
-                            </div>
-                        </div> -->
-
-                        <div class="card-image">
-                            <img src="asset/image/telecom.jpg">
-                        </div>
-                        <div class="card-content">
-                            <h2 class="h3 card-content-title" ><a href="partial/prototype/single-content-2.html">What Periscope Reveals About U.S. Telecom Infrastructure</a></h2>
-                            <p class="card-content-meta">
-                                <span class="meta-from">The Daily Example</span>
-                                <span class="meta-writer">Vienna Rye</span>
-                            </p>
-                            <p class="card-content-summary">When Periscope exploded onto the scene a month ago, it quickly set a new industry standard for the possibilities of video-streaming. Launched by Twitter, Periscope carries significant potential to change not only the speed and intimacy by which we interact, but to ultimately redefine the power of citizen journalism.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#"><span class="fa fa-bookmark-o"></span></a>
-                            <a href="#"><span class="fa fa-external-link"></span></a>
+                    <div class="col s12 m4">
+                        <div class="center promo">
+                            <h2>User Experience Focused</h2>
+                            <p class="light left-align">Modem dolphin rifle. Singularity military grade weathered 3D printed engine car office network footage market beef noodles towards range rover nano bomb. Towards industrial grade tank traps post neural concrete apophenia crypto sign.</p>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <!-- <div class="timeline-stone">
-                            <div class="timeline-stone-inner">
-                                <img class="timeline-stone-icon" src="../../asset/image/tribun.png" alt="">
-                            </div>
-                        </div> -->
-
-                        <div class="card-image">
-                            <img src="asset/image/volcano.jpg">
-                        </div>
-                        <div class="card-content">
-                            <h2 class="h3 card-content-title" ><a href="partial/prototype/single-content-3.html">The Story Behind These Heart-Stopping Photos of Volcano Fuego Erupting</a></h2>
-                            <p class="card-content-meta">
-                                <span class="meta-from">The Daily Example</span>
-                                <span class="meta-writer">Andy Shepard</span>
-                            </p>
-                            <p class="card-content-summary">November of 2014 marked my departure from home. For me, leaving Seattle was the exploration of a new adventurous mindset. My decision to pursue my landscape photography work while traveling was the catalyst for finding new, exciting experiences; experiences that would take me from the beaches of Mexico, across jungles of the tropics, to volcanic summits, and anywhere I happen to find myself with my camera and my backpack in tow.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#"><span class="fa fa-bookmark-o"></span></a>
-                            <a href="#"><span class="fa fa-external-link"></span></a>
+                    <div class="col s12 m4">
+                        <div class="center promo">
+                            <h2>Easy and Fun to develop</h2>
+                            <p class="light left-align">Rain nodality dead j pop apophenia silent dissident market face forwards dome urban tank traps nano sub orbital tube. Dissident computer beef noodles singularity hotdog systemic 8 bit face forwards chrome decay modem nodality.</p>
                         </div>
                     </div>
                 </div>
@@ -136,11 +154,11 @@
         </div>
     </main>
 
-    <footer class="page-footer" >
+    <footer class="page-footer">
         <div class="footer-copyright">
             <div class="container">
                 © 2014-2015 ReadingBulb, All rights reserved.
-                <a class="grey-text text-lighten-4 right" href="">&nbsp;Proprietary License</a>
+                <a class="grey-text text-lighten-4 right" href="">Proprietary License</a>
             </div>
         </div>
     </footer>
@@ -148,11 +166,9 @@
     <!--  Scripts-->
     <script src="vendor/jquery/dist/jquery.js"></script>
     <script src="vendor/jquery-timeago/jquery.timeago.js"></script>
+    <script src="vendor/prism/prism.js"></script>
     <script src="vendor/materialize/bin/materialize.js"></script>
-    <script src="vendor/hammerjs/hammer.js"></script>
-    <script src="vendor/headroom.js/dist/headroom.js"></script>
-    <script src="vendor/headroom.js/dist/jQuery.headroom.js"></script>
-    <script src="script/rb-proto.js"></script>
+    <script src="script/rb-styleguide.js"></script>
 </body>
 
 </html>
