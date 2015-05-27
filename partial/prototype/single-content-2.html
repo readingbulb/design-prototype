@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="ReadingBulb - Styleguides">
+    
+    <title>ReadingBulb - Frontend Prototype</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../favicon.ico" sizes="32x32">
+
+
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#EE6E73">
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="../../style/proto.css" >
+</head>
+
+<body id="single-content">
+
+    <header class="navbar-fixed">
+
+        <nav class="user-dashboard-topnav">
+
+            <div class="nav-wrapper nav">
+
+                <ul class="row top-nav">
+                    <li class="col s3 center-align">
+                        <a class="active" href="dashboard-user.html" ><span class="nav-icon fa fa-star-o"></span><span class="nav-text">&nbsp;Featured</span></a>
+                    </li>
+                    <li class="col s3 center-align">
+                        <a class="" href="dashboard-user-latest.html" ><span class="nav-icon fa fa-bell-o"></span><span class="nav-text">&nbsp;Latest</span></a>
+                    </li>
+                    <li class="col s3 center-align">
+                        <a class="" href="dashboard-user-subscribed.html" ><span class="nav-icon fa fa-thumb-tack"></span><span class="nav-text">&nbsp;Subscribed</span></a>
+                    </li>
+                    <li class="col s3 center-align">
+                        <a class="" href="dashboard-user-subscribed.html" ><span class="nav-icon fa fa-plus-square-o"></span><span class="nav-text">&nbsp;Filters</span></a>
+                    </li>
+                </ul>
+
+                <ul class="side-nav" id="side-nav">
+                    <li><a href="#">Menu A</a></li>
+                    <li><a href="#">Menu B</a></li>
+                    <li><a href="#">Menu C</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <article class="content-outer">
+            
+            <section class="content-cover-outer full-height">
+
+                <div class="content-cover-image" style="background-image: url(http://rb-styleguides.dev/app/asset/image/telecom.jpg);"></div>
+
+                <div class="content-cover-head">
+
+                    <div class="content-meta-outer">
+
+                        <div class="content-title">
+                            <h2>What Periscope Reveals About U.S. Telecom Infrastructure</h2>
+                        </div>
+                        
+                        <div class="content-meta-source-icon">
+                            <img src="../../asset/image/tribun.png" alt="">
+                        </div>
+
+                        <div class="content-meta-source-text">
+                            <p>THE DAILY EDITION</p>
+                        </div>
+
+                        <div class="content-meta-author">
+                            <p><span>&nbsp;&bull;&nbsp;</span>Vienna Rye</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-body">
+                <p>When Periscope exploded onto the scene a month ago, it quickly set a new industry standard for the possibilities of video-streaming. Launched by Twitter, Periscope carries significant potential to change not only the speed and intimacy by which we interact, but to ultimately redefine the power of citizen journalism. Amplified by Spotify’s newly announced video-streaming service and the recent launch of Reddit’s own video curation service, the demand for digital video shows no signs of slowing down, leaving us with a very important question: can the current telecom infrastructure keep up with consumer data demand?</p>
+                <p>In a densely populated, highly connected city such as New York, telecom infrastructure varies widely across carriers. Video-streaming apps are some of the most data intensive, with an app like Periscope or Meerkat consuming approximately 3.5 MB of data per 1 min of live video. This demand has taken a heavy toll, with carriers reporting a 70% increase in data demand in 2014, 55% due to video-streaming (Cisco Visual Networking Index). Recent speed tests conducted by LaptopMag.com throughout Manhattan show Verizon as the clear leader with average download speeds of 32 Mbps, while AT&amp;T, T-Mobile, and Sprint all performed with terribly disappointing download speeds. Many carriers today find themselves perpetually scrambling to keep pace with increasing data demand, bringing questions of imminent, real-world limitations to the forefront. Are we prepared for video-streaming en masse, on a structural, network level? And if we are not, how can we be?</p>
+                <p>When I first began writing this article, it was initially fueled by the sheer excitement of Periscope as a tool to broadcast breaking news events. The potential of digital video has taken off across a wide variety of spaces, allowing live feeds of concerts, political events, social activism and much more to enter the media space. As an activist myself, I immediately understood the scope and potential of putting a live broadcast in the hands of any person with a smartphone, shifting the power away from the elite few who have maintained control of the media narrative for far too long. Now for the first time, due to the rise of social media and tools like Periscope, people who have historically been oppressed, marginalized and erased from history can take back that narrative and tell their own stories.</p>
+                <p>This initial excitement, however, quickly diminished upon my first attempt to use Periscope at a live event. At a New York City solidarity protest following the death of Freddie Gray at the hands of Baltimore Police, I whipped out Periscope in an attempt to broadcast the 6,000 person rally to some 10,000 Twitter followers. Except, I couldn’t launch the broadcast. Over and over I got an error message that I was unable to begin broadcasting due to lack of cellular service. Here I was, in the middle of Manhattan — one of the most connected, digital spaces in the world — and my iPhone 5S was picking up only 2G/3G service where I typically had 4G/LTE on AT&T’s network. Was it the crowd? Was it the sheer amount of smartphones all clamoring for signal? Surely Union Square, of all places, was equipped to meet the demands of a large crowd. I began to question if there was something more covert, more aggressive at play — was the NYPD interfering with cell reception via the use of Stingrays? I had a hard time imagining 6,000 people alone could overload the capacity of an entire system. Unsure, yet desiring an explanation, I began digging deeper into the current infrastructure underlying all the rest of our mobile technology.</p>
+                <p>What I found matched my experience with Periscope. Currently there are no sustainable solutions to meet the increased consumer data demand. As network crashes and service interruptions are occuring with increasing regularity, carriers are essentially using temporary solutions as quick fixes, either by way of FemtoCells or mobile base stations. Forced to rely on their limited ability to forecast instances of heavy data demand, carriers can plan to deploy additional temporary infrastructure to boost capacity. We see this at large annual events such as SXSW, where mobile base stations are set-up ahead of time to maintain the predicted 3–4X increase in data consumption. Yet this solution is largely cumbersome and ineffective, as carriers cannot possibly forecast data demand in events of breaking news or natural disasters— the very lanes where live-streaming apps hold the most potential for everyday users.</p>
+            </section>
+        </article>
+
+        <!-- <div class="fixed-action-btn" style="bottom: 8px; right: 8px;">
+            <a class="btn-floating btn-large brown darken-2"><i class="large fa fa-plus"></i></a>
+            <ul>
+                <li><a class="btn-floating brown darken-2"><i class="fa fa-filter" style="font-size: 1rem;"></i></a></li>
+                <li><a class="btn-floating brown darken-2"><i class="fa fa-search" style="font-size: 1rem;"></i></a></li>
+            </ul>
+        </div> -->
+    </main>
+
+    <footer class="page-footer" >
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014-2015 ReadingBulb, All rights reserved.
+                <a class="grey-text text-lighten-4 right" href="">Proprietary License</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="../../vendor/jquery/dist/jquery.js"></script>
+    <script src="../../vendor/jquery-timeago/jquery.timeago.js"></script>
+    <script src="../../vendor/materialize/bin/materialize.js"></script>
+    <script src="../../vendor/hammerjs/hammer.js"></script>
+    <script src="../../vendor/headroom.js/dist/headroom.js"></script>
+    <script src="../../vendor/headroom.js/dist/jQuery.headroom.js"></script>
+    <script src="../../script/rb-proto.js"></script>
+</body>
+
+</html>
