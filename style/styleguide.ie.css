@@ -6418,7 +6418,7 @@ code {
     border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 1rem; }
     .card .card-action a {
-      color: #947160;
+      color: #5c473c;
       margin-right: 1rem;
       -webkit-transition: color .3s ease;
       -moz-transition: color .3s ease;
@@ -6427,7 +6427,7 @@ code {
       transition: color .3s ease;
       text-transform: uppercase; }
       .card .card-action a:hover {
-        color: #bfa79c; }
+        color: #d7c8c1; }
   .card .card-reveal {
     padding: 1rem;
     position: absolute;
