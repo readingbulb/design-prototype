@@ -9032,6 +9032,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       clear: both; }
     .timeline .card .card-action .card-action-link {
       display: inline-block;
+      position: relative;
       float: left;
       height: 1.5rem;
       width: 50%;
@@ -9040,15 +9041,25 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       color: #5c473c;
       font-size: 11px;
       line-height: 1.5rem;
-      text-align: center;
-      border: 1px solid #d7c8c1; }
+      text-align: center; }
+      .timeline .card .card-action .card-action-link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        border: 1px solid #d7c8c1; }
+      .timeline .card .card-action .card-action-link:first-of-type:after {
+        right: 2px;
+        left: 0; }
+      .timeline .card .card-action .card-action-link:last-of-type:after {
+        left: 2px;
+        right: 0; }
       .timeline .card .card-action .card-action-link .icon {
         margin-right: 1em; }
       .timeline .card .card-action .card-action-link .text {
         letter-spacing: 0.03em;
         text-transform: capitalize; }
-      .timeline .card .card-action .card-action-link:first-of-type {
-        border-right: none; }
   .timeline .card .card-content-title {
     margin: 0 0 1rem 0;
     font-family: SansMedium, 'Helvetica Neue', Helvetica, Arial, sans-serif;
