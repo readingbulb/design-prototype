@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="../../style/proto.css" >
 </head>
 
-<body id="single-content">
+<body id="single-content" class="is-headroom">
 
     <header class="navbar-fixed">
 
@@ -48,11 +48,11 @@
             <ul class="filter-nav-inner">
                 
                 <li class="filter-list">
-                    <a href="#" class="filter-link"><span class="filter-icon fa fa-search"></span></a>
+                    <a href="javascript:void(0);" class="filter-link" id="searchToggler"><span class="filter-icon fa fa-search"></span></a>
                 </li>
 
                 <li class="filter-list">
-                    <a href="#" class="filter-link"><span class="filter-icon fa fa-filter"></span></a>
+                    <a href="javascript:void(0);" class="filter-link" id="filterToggler"><span class="filter-icon fa fa-filter"></span></a>
                 </li>
             </ul>
         </nav>
@@ -102,15 +102,278 @@
                 <p>But nobody’s buying that. Dystopia’s so much more fun.</p>
             </section>
         </article>
-
-        <!-- <div class="fixed-action-btn" style="bottom: 8px; right: 8px;">
-            <a class="btn-floating btn-large brown darken-2"><i class="large fa fa-plus"></i></a>
-            <ul>
-                <li><a class="btn-floating brown darken-2"><i class="fa fa-filter" style="font-size: 1rem;"></i></a></li>
-                <li><a class="btn-floating brown darken-2"><i class="fa fa-search" style="font-size: 1rem;"></i></a></li>
-            </ul>
-        </div> -->
     </main>
+
+    <section class="filter-outer">
+
+        <div class="filter-outer-overlay"></div>
+
+        <div class="filter-select-outer">
+            <!-- <p class="filter-select-label">Select country</p> -->
+            <select name="filterByCountry" id="filterByCountry"
+                class="filter-sel browser-default">
+                <option value="ID">INDONESIA</option>
+            </select>
+
+            <select name="filterByLang" id="filterByLang"
+                class="filter-sel browser-default">
+                <option value="ID">BAHASA</option>
+                <option value="EN">ENGLISH</option>
+            </select>
+        </div>
+
+        <div class="filter-media-outer selected" data-lang="ID">
+            <ul class="media-group" data-initial="a">
+                <li class="media-list-head">A</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img height="16" src="../../asset/image/media-icons/antara.png" alt="rb"></span><span class="text">Antara</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="b">
+                <li class="media-list-head">B</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/beritasatu.png" alt="rb"></span><span class="text">Berita Satu</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/bisnis.png" alt="rb"></span><span class="text">Bisnis</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/bola.png" alt="rb"></span><span class="text">Bola</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="c">
+                <li class="media-list-head">C</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/cnnindo.png" alt="rb"></span><span class="text">CNN Indonesia</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="d">
+                <li class="media-list-head">D</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/detik.png" alt="rb"></span><span class="text">Detik</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="e">
+                <li class="media-list-head">E</li>
+            </ul>
+            <ul class="media-group" data-initial="f">
+                <li class="media-list-head">F</li>
+            </ul>
+            <ul class="media-group" data-initial="g">
+                <li class="media-list-head">G</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/goal.png" alt="rb"></span><span class="text">Goal</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="h">
+                <li class="media-list-head">H</li>
+            </ul>
+            <ul class="media-group" data-initial="i">
+                <li class="media-list-head">I</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/inilah.png" alt="rb"></span><span class="text">Inilah</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/investordaily.png" alt="rb"></span><span class="text">Investor Daily</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="j">
+                <li class="media-list-head">J</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/jpnn.png" alt="rb"></span><span class="text">JPNN</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="k">
+                <li class="media-list-head">K</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kapanlagi.png" alt="rb"></span><span class="text">Kapanlagi</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kompas.png" alt="rb"></span><span class="text">Kompas</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kompasiana.jpg" alt="rb"></span><span class="text">Kompasiana</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kontan.png" alt="rb"></span><span class="text">Kontan</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="l">
+                <li class="media-list-head">L</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/lintas.png" alt="rb"></span><span class="text">Lintas</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/liputan6.png" alt="rb"></span><span class="text">Liputan6</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="m">
+                <li class="media-list-head">M</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/mediaindonesia.png" alt="rb"></span><span class="text">Media Indonesia</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/merdeka.png" alt="rb"></span><span class="text">Merdeka</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/metrotv.png" alt="rb"></span><span class="text">Metro TV</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="n">
+                <li class="media-list-head">N</li>
+            </ul>
+            <ul class="media-group" data-initial="o">
+                <li class="media-list-head">O</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/okezone.png" alt="rb"></span><span class="text">Okezone</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="p">
+                <li class="media-list-head">P</li>
+            </ul>
+            <ul class="media-group" data-initial="q">
+                <li class="media-list-head">Q</li>
+            </ul>
+            <ul class="media-group" data-initial="r">
+                <li class="media-list-head">R</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/rol.png" alt="rb"></span><span class="text">Republika</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="s">
+                <li class="media-list-head">S</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/sindo.png" alt="rb"></span><span class="text">Sindo</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/startupbisnis.png" alt="rb"></span><span class="text">Startup Bisnis</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/suaranews.png" alt="rb"></span><span class="text">Suara</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="t">
+                <li class="media-list-head">T</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/tempo.png" alt="rb"></span><span class="text">Tempo</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/times.png" alt="rb"></span><span class="text">Times</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/tribun.png" alt="rb"></span><span class="text">Tribun</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="u">
+                <li class="media-list-head">U</li>
+            </ul>
+            <ul class="media-group" data-initial="v">
+                <li class="media-list-head">V</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/vemale.png" alt="rb"></span><span class="text">Vemale</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/viva.png" alt="rb"></span><span class="text">Viva</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="w">
+                <li class="media-list-head">W</li>
+            </ul>
+            <ul class="media-group" data-initial="x">
+                <li class="media-list-head">X</li>
+            </ul>
+            <ul class="media-group" data-initial="y">
+                <li class="media-list-head">Y</li>
+            </ul>
+            <ul class="media-group" data-initial="z">
+                <li class="media-list-head">Z</li>
+            </ul>
+        </div>
+
+        <div class="filter-media-outer" data-lang="EN">
+            <ul class="media-group" data-initial="a">
+                <li class="media-list-head">A</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img height="16" src="../../asset/image/media-icons/antara.png" alt="rb"></span><span class="text">Antara</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="b">
+                <li class="media-list-head">B</li>
+            </ul>
+            <ul class="media-group" data-initial="c">
+                <li class="media-list-head">C</li>
+            </ul>
+            <ul class="media-group" data-initial="d">
+                <li class="media-list-head">D</li>
+            </ul>
+            <ul class="media-group" data-initial="e">
+                <li class="media-list-head">E</li>
+            </ul>
+            <ul class="media-group" data-initial="f">
+                <li class="media-list-head">F</li>
+            </ul>
+            <ul class="media-group" data-initial="g">
+                <li class="media-list-head">G</li>
+            </ul>
+            <ul class="media-group" data-initial="h">
+                <li class="media-list-head">H</li>
+            </ul>
+            <ul class="media-group" data-initial="i">
+                <li class="media-list-head">I</li>
+            </ul>
+            <ul class="media-group" data-initial="j">
+                <li class="media-list-head">J</li>
+            </ul>
+            <ul class="media-group" data-initial="k">
+                <li class="media-list-head">K</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kontan.png" alt="rb"></span><span class="text">Kontan</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="l">
+                <li class="media-list-head">L</li>
+            </ul>
+            <ul class="media-group" data-initial="m">
+                <li class="media-list-head">M</li>
+            </ul>
+            <ul class="media-group" data-initial="n">
+                <li class="media-list-head">N</li>
+            </ul>
+            <ul class="media-group" data-initial="o">
+                <li class="media-list-head">O</li>
+            </ul>
+            <ul class="media-group" data-initial="p">
+                <li class="media-list-head">P</li>
+            </ul>
+            <ul class="media-group" data-initial="q">
+                <li class="media-list-head">Q</li>
+            </ul>
+            <ul class="media-group" data-initial="r">
+                <li class="media-list-head">R</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/rol.png" alt="rb"></span><span class="text">Republika</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="s">
+                <li class="media-list-head">S</li>
+            </ul>
+            <ul class="media-group" data-initial="t">
+                <li class="media-list-head">T</li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/tempo.png" alt="rb"></span><span class="text">Tempo</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/jakartapost.png" alt="rb"></span><span class="text">The Jakarta Post</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/jakartaglobe.png" alt="rb"></span><span class="text">The Jakarta Globe</span><span class="icon fa"></span></a></li>
+            </ul>
+            <ul class="media-group" data-initial="u">
+                <li class="media-list-head">U</li>
+            </ul>
+            <ul class="media-group" data-initial="v">
+                <li class="media-list-head">V</li>
+            </ul>
+            <ul class="media-group" data-initial="w">
+                <li class="media-list-head">W</li>
+            </ul>
+            <ul class="media-group" data-initial="x">
+                <li class="media-list-head">X</li>
+            </ul>
+            <ul class="media-group" data-initial="y">
+                <li class="media-list-head">Y</li>
+            </ul>
+            <ul class="media-group" data-initial="z">
+                <li class="media-list-head">Z</li>
+            </ul>
+        </div>
+
+        <div class="filter-submit-outer">
+
+            <button class="btn waves-effect waves-light rb-primer base filter-submit-btn" type="submit" name="action">Submit<span class="icon fa fa-arrow-right"></span></button>
+        </div>
+
+        <div class="filter-initial-outer">
+            <ul class="filter-initial-lists">
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="a"></a>A</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="b"></a>B</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="c"></a>C</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="d"></a>D</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="e"></a>E</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="f"></a>F</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="g"></a>G</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="h"></a>H</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="i"></a>I</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="j"></a>J</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="k"></a>K</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="l"></a>L</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="m"></a>M</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="n"></a>N</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="o"></a>O</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="p"></a>P</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="q"></a>Q</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="r"></a>R</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="s"></a>S</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="t"></a>T</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="u"></a>U</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="v"></a>V</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="w"></a>W</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="x"></a>X</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="y"></a>Y</li>
+                <li class="filter-initial-list"><a href="javascript:void(0);" class="filter-initial-link" data-initial-link="z"></a>Z</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="search-outer">
+        <div class="search-outer-overlay"></div>
+        <div class="search-input-outer">
+            <div class="input-field">
+                <textarea
+                    id="searchInput"
+                    class="materialize-textarea search-input"
+                    placeholder="Type your search here ..."
+                ></textarea>
+                <label for="searchInput">SEARCH</label>
+            </div>
+
+            <div class="search-submit-outer">
+                <button class="btn waves-effect waves-light rb-primer base search-submit-btn"
+                    type="submit" name="action">Submit<span class="icon fa fa-arrow-right"></span></button>
+            </div>
+        </div>
+    </section>
 
     <footer class="page-footer" >
         <div class="footer-copyright">
@@ -121,6 +384,9 @@
     </footer>
 
     <!--  Scripts-->
+    <script src="../../vendor/vminpoly/parser.js"></script>
+    <script src="../../vendor/vminpoly/tokenizer.js"></script>
+    <script src="../../vendor/vminpoly/vminpoly.js"></script>
     <script src="../../vendor/jquery/dist/jquery.js"></script>
     <script src="../../vendor/jquery-timeago/jquery.timeago.js"></script>
     <script src="../../vendor/materialize/bin/materialize.js"></script>
@@ -130,6 +396,8 @@
     <script src="../../vendor/formstone/dist/js/core.js"></script>
     <script src="../../vendor/formstone/dist/js/transition.js"></script>
     <script src="../../vendor/formstone/dist/js/background.js"></script>
+    <script src="../../vendor/formstone/dist/js/touch.js"></script>
+    <script src="../../vendor/formstone/dist/js/dropdown.js"></script>
     <script src="../../script/rb-proto.js"></script>
 </body>
 
