@@ -9552,5 +9552,27 @@ body.parallax-demo footer {
 .full-width {
   width: 100% !important; }
 
+#browser-limit {
+  display: none; }
+  #browser-limit.active {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background-color: #000;
+    z-index: 1000; }
+    #browser-limit.active .bl-head {
+      color: #FFF;
+      margin: -57px auto 0;
+      padding: 0;
+      text-align: center;
+      display: block;
+      width: 100vw;
+      height: 114px;
+      position: absolute;
+      top: 50%; }
+
 
 /*# sourceMappingURL=maps/styleguide.css.map */

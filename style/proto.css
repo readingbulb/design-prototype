@@ -9748,6 +9748,7 @@ footer.page-footer {
     padding: .25rem; }
   .filter-nav-outer .filter-nav-inner .filter-link {
     display: block;
+    position: relative;
     width: 100%;
     height: 100%;
     line-height: 100%;
@@ -9758,6 +9759,7 @@ footer.page-footer {
     background-color: #FFF;
     border: 2px solid #757575; }
     .filter-nav-outer .filter-nav-inner .filter-link .filter-icon {
+      position: relative;
       display: block;
       width: 100%;
       height: 100%;
@@ -10224,6 +10226,28 @@ footer.page-footer {
 /* ------ {{ swipe }} ------ */
 .full-width {
   width: 100% !important; }
+
+#browser-limit {
+  display: none; }
+  #browser-limit.active {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background-color: #000;
+    z-index: 1000; }
+    #browser-limit.active .bl-head {
+      color: #FFF;
+      margin: -57px auto 0;
+      padding: 0;
+      text-align: center;
+      display: block;
+      width: 100vw;
+      height: 114px;
+      position: absolute;
+      top: 50%; }
 
 
 /*# sourceMappingURL=maps/proto.css.map */
