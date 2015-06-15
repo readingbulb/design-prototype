@@ -3,19 +3,12 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="ReadingBulb - Styleguides">
     
-    <title>ReadingBulb - Frontend Prototype</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="../favicon.ico" sizes="32x32">
-
-
-    <!--  Android 5 Chrome Color-->
-    <meta name="theme-color" content="#EE6E73">
+    <title>ReadingBulb - Prototype</title>
 
     <!-- CSS-->
     <link rel="stylesheet" href="../../style/proto.css" >
@@ -23,7 +16,7 @@
     <script src="../../vendor/modernizr/modernizr.js"></script>
 </head>
 
-<body id="single-content" class="is-headroom">
+<body id="user-dashboard" class="is-headroom">
 
     <header class="navbar-fixed">
 
@@ -31,13 +24,13 @@
 
             <ul class="main-nav-inner">
                 <li class="nav-list">
-                    <a class="nav-link active" href="dashboard-user.html" ><span class="nav-icon fa fa-star-o"></span><span class="nav-text">&nbsp;Featured</span></a>
+                    <a class="nav-link active" href="index.html" ><span class="nav-icon fa fa-star-o"></span><span class="nav-text">&nbsp;Featured</span></a>
                 </li>
                 <li class="nav-list">
-                    <a class="nav-link" href="dashboard-user-latest.html" ><span class="nav-icon fa fa-bell-o"></span><span class="nav-text">&nbsp;Latest</span></a>
+                    <a class="nav-link" href="latest.html" ><span class="nav-icon fa fa-bell-o"></span><span class="nav-text">&nbsp;Latest</span></a>
                 </li>
                 <li class="nav-list">
-                    <a class="nav-link" href="dashboard-user-subscribed.html" ><span class="nav-icon fa fa-thumb-tack"></span><span class="nav-text">&nbsp;Subscribed</span></a>
+                    <a class="nav-link" href="subscribed.html" ><span class="nav-icon fa fa-thumb-tack"></span><span class="nav-text">&nbsp;Subscribed</span></a>
                 </li>
                 <li class="nav-list">
                     <a class="nav-link filter-nav-toggler" href="#" ><span class="nav-icon fa fa-plus-square-o"></span><span class="nav-text">&nbsp;Filters</span></a>
@@ -60,52 +53,52 @@
         </nav>
     </header>
 
-    <main id="main">
+    <main class="subscribed-main" id="main">
 
-        <article class="content-outer">
-            
-            <section class="content-cover-outer full-height">
+        <!-- //// #preloader-outer //// -->
+        <div id="main-preloader">
+            <div class="preloader-overlay"></div>
+            <div class="preloader-wrapper active">
+                <div class="spinner-layer spinner-rb-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="preloader-text">
+                <p>loading</p>
+            </div>
+        </div>
 
-                <div class="content-cover-image" data-src="../../asset/image/tomorrowland.jpg"></div>
+        <div class="timeline">
+            <div class="row">
+                <div class="col card-col s12 m4" id="feeds-outer">
+                    <div class="card markup-model">
 
-                <div class="content-cover-head">
-
-                    <div class="content-meta-outer">
-
-                        <div class="content-title">
-                            <h2>The Secrets of the Chief Design Officer</h2>
+                        <div class="card-image"><img src=""></div>
+                        <div class="card-content">
+                            <h2 class="h3 card-content-title" ><a href=""></a></h2>
+                            <p class="card-content-meta">
+                                <span class="meta-from"></span>
+                                <span class="meta-timeago"></span>
+                            </p>
+                            <p class="card-content-summary"></p>
                         </div>
-                        
-                        <div class="content-meta-source-icon">
-                            <img src="../../asset/image/tribun.png" alt="">
-                        </div>
-
-                        <div class="content-meta-source-text">
-                            <p>THE DAILY EDITION</p>
-                        </div>
-
-                        <div class="content-meta-author">
-                            <p><span>&nbsp;&bull;&nbsp;</span>George Orwell</p>
+                        <div class="card-action">
+                            <a class="card-action-link" href="#"><span class="icon fa fa-bookmark-o"></span><span class="text">Read later</span></a>
+                            <a class="card-action-link" href="#"><span class="icon fa fa-external-link"></span><span class="text">Share</span></a>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
 
-            <section class="content-body">
-                <p>Of course, they are. But don’t believe the hype, people have been flipping tables since the first plank was balanced on a rock. It’s arguable that the first table was built specifically to express this most raw of human emotions. But millennia later, we have found practical (and hyperbolic) use for the flip in those moments when words are just not enough.</p>
-                <p>The Angry Rage is the most extreme of the table flips and most often captured on film. Well documented in popular culture, it is easy to uncovered examples of rage-fueled table flips as early as Son Of Frankenstein in 1939 and in 1941, perhaps the most praised host, Citizen Kane.</p>
-                <p>The therapeutic nature of table flipping has been well established within the human race. Confident in this knowledge, the Society of Software Engineers at Rochester Institute of Technology organized a table flipping event in November, 2011, to help student alleviate stress during finals week. But even before that delightful recognition, there was this</p>
-                <p>The Japanese Table Flip Game Cho Chabudai Gaeshi! (Super Table-Flip!) has been popular for reducing tensions for Japanese business men for years. Anecdotally, there are four different scenarios in the game: the father and family, a guest at a host club, a frustrated office worker, and my favorite, BRIDEZILLA</p>
-            </section>
-        </article>
-
-        <!-- <div class="fixed-action-btn" style="bottom: 8px; right: 8px;">
-            <a class="btn-floating btn-large brown darken-2"><i class="large fa fa-plus"></i></a>
-            <ul>
-                <li><a class="btn-floating brown darken-2"><i class="fa fa-filter" style="font-size: 1rem;"></i></a></li>
-                <li><a class="btn-floating brown darken-2"><i class="fa fa-search" style="font-size: 1rem;"></i></a></li>
-            </ul>
-        </div> -->
     </main>
 
     <section class="filter-outer">
@@ -129,21 +122,21 @@
         <div class="filter-media-outer selected" data-lang="ID">
             <ul class="media-group" data-initial="a">
                 <li class="media-list-head">A</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img height="16" src="../../asset/image/media-icons/antara.png" alt="rb"></span><span class="text">Antara</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="198" class="media-toggler-link"><span class="image"><img height="16" src="../../asset/image/media-icons/antara.png" alt="rb"></span><span class="text">Antara</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="b">
                 <li class="media-list-head">B</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/beritasatu.png" alt="rb"></span><span class="text">Berita Satu</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/bisnis.png" alt="rb"></span><span class="text">Bisnis</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/bola.png" alt="rb"></span><span class="text">Bola</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="12" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/beritasatu.png" alt="rb"></span><span class="text">Berita Satu</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="20" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/bisnis.png" alt="rb"></span><span class="text">Bisnis</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="18" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/bola.png" alt="rb"></span><span class="text">Bola</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="c">
                 <li class="media-list-head">C</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/cnnindo.png" alt="rb"></span><span class="text">CNN Indonesia</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="9" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/cnnindo.png" alt="rb"></span><span class="text">CNN Indonesia</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="d">
                 <li class="media-list-head">D</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/detik.png" alt="rb"></span><span class="text">Detik</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="1" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/detik.png" alt="rb"></span><span class="text">Detik</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="e">
                 <li class="media-list-head">E</li>
@@ -153,44 +146,44 @@
             </ul>
             <ul class="media-group" data-initial="g">
                 <li class="media-list-head">G</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/goal.png" alt="rb"></span><span class="text">Goal</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="200" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/goal.png" alt="rb"></span><span class="text">Goal</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="h">
                 <li class="media-list-head">H</li>
             </ul>
             <ul class="media-group" data-initial="i">
                 <li class="media-list-head">I</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/inilah.png" alt="rb"></span><span class="text">Inilah</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/investordaily.png" alt="rb"></span><span class="text">Investor Daily</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="187" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/inilah.png" alt="rb"></span><span class="text">Inilah</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="185" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/investordaily.png" alt="rb"></span><span class="text">Investor Daily</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="j">
                 <li class="media-list-head">J</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/jpnn.png" alt="rb"></span><span class="text">JPNN</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="26" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/jpnn.png" alt="rb"></span><span class="text">JPNN</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="k">
                 <li class="media-list-head">K</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kapanlagi.png" alt="rb"></span><span class="text">Kapanlagi</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kompas.png" alt="rb"></span><span class="text">Kompas</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kompasiana.jpg" alt="rb"></span><span class="text">Kompasiana</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kontan.png" alt="rb"></span><span class="text">Kontan</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="17" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kapanlagi.png" alt="rb"></span><span class="text">Kapanlagi</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="2" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kompas.png" alt="rb"></span><span class="text">Kompas</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="180" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kompasiana.jpg" alt="rb"></span><span class="text">Kompasiana</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="28" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kontan.png" alt="rb"></span><span class="text">Kontan</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="l">
                 <li class="media-list-head">L</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/lintas.png" alt="rb"></span><span class="text">Lintas</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/liputan6.png" alt="rb"></span><span class="text">Liputan6</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="184" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/lintas.png" alt="rb"></span><span class="text">Lintas</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="6" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/liputan6.png" alt="rb"></span><span class="text">Liputan6</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="m">
                 <li class="media-list-head">M</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/mediaindonesia.png" alt="rb"></span><span class="text">Media Indonesia</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/merdeka.png" alt="rb"></span><span class="text">Merdeka</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/metrotv.png" alt="rb"></span><span class="text">Metro TV</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="27" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/mediaindonesia.png" alt="rb"></span><span class="text">Media Indonesia</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="4" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/merdeka.png" alt="rb"></span><span class="text">Merdeka</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="7" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/metrotv.png" alt="rb"></span><span class="text">Metro TV</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="n">
                 <li class="media-list-head">N</li>
             </ul>
             <ul class="media-group" data-initial="o">
                 <li class="media-list-head">O</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/okezone.png" alt="rb"></span><span class="text">Okezone</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="181" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/okezone.png" alt="rb"></span><span class="text">Okezone</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="p">
                 <li class="media-list-head">P</li>
@@ -200,27 +193,27 @@
             </ul>
             <ul class="media-group" data-initial="r">
                 <li class="media-list-head">R</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/rol.png" alt="rb"></span><span class="text">Republika</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="16" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/rol.png" alt="rb"></span><span class="text">Republika</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="s">
                 <li class="media-list-head">S</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/sindo.png" alt="rb"></span><span class="text">Sindo</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/startupbisnis.png" alt="rb"></span><span class="text">Startup Bisnis</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/suaranews.png" alt="rb"></span><span class="text">Suara</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="182" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/sindo.png" alt="rb"></span><span class="text">Sindo</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="183" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/startupbisnis.png" alt="rb"></span><span class="text">Startup Bisnis</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="15" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/suaranews.png" alt="rb"></span><span class="text">Suara</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="t">
                 <li class="media-list-head">T</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/tempo.png" alt="rb"></span><span class="text">Tempo</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/times.png" alt="rb"></span><span class="text">Times</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/tribun.png" alt="rb"></span><span class="text">Tribun</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="5" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/tempo.png" alt="rb"></span><span class="text">Tempo</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="10" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/times.png" alt="rb"></span><span class="text">Times</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="14" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/tribun.png" alt="rb"></span><span class="text">Tribun</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="u">
                 <li class="media-list-head">U</li>
             </ul>
             <ul class="media-group" data-initial="v">
                 <li class="media-list-head">V</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/vemale.png" alt="rb"></span><span class="text">Vemale</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/viva.png" alt="rb"></span><span class="text">Viva</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="21" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/vemale.png" alt="rb"></span><span class="text">Vemale</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="8" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/viva.png" alt="rb"></span><span class="text">Viva</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="w">
                 <li class="media-list-head">W</li>
@@ -239,7 +232,7 @@
         <div class="filter-media-outer" data-lang="EN">
             <ul class="media-group" data-initial="a">
                 <li class="media-list-head">A</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img height="16" src="../../asset/image/media-icons/antara.png" alt="rb"></span><span class="text">Antara</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="193" class="media-toggler-link"><span class="image"><img height="16" src="../../asset/image/media-icons/antara.png" alt="rb"></span><span class="text">Antara</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="b">
                 <li class="media-list-head">B</li>
@@ -270,7 +263,7 @@
             </ul>
             <ul class="media-group" data-initial="k">
                 <li class="media-list-head">K</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kontan.png" alt="rb"></span><span class="text">Kontan</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="192" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/kontan.png" alt="rb"></span><span class="text">Kontan</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="l">
                 <li class="media-list-head">L</li>
@@ -292,16 +285,16 @@
             </ul>
             <ul class="media-group" data-initial="r">
                 <li class="media-list-head">R</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/rol.png" alt="rb"></span><span class="text">Republika</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="195" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/rol.png" alt="rb"></span><span class="text">Republika</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="s">
                 <li class="media-list-head">S</li>
             </ul>
             <ul class="media-group" data-initial="t">
                 <li class="media-list-head">T</li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/tempo.png" alt="rb"></span><span class="text">Tempo</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/jakartapost.png" alt="rb"></span><span class="text">The Jakarta Post</span><span class="icon fa"></span></a></li>
-                <li class="media-list"><a href="javascript:void(0);" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/jakartaglobe.png" alt="rb"></span><span class="text">The Jakarta Globe</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="196" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/tempo.png" alt="rb"></span><span class="text">Tempo</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="189" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/jakartapost.png" alt="rb"></span><span class="text">The Jakarta Post</span><span class="icon fa"></span></a></li>
+                <li class="media-list"><a href="javascript:void(0);" data-val="188" class="media-toggler-link"><span class="image"><img src="../../asset/image/media-icons/jakartaglobe.png" alt="rb"></span><span class="text">The Jakarta Globe</span><span class="icon fa"></span></a></li>
             </ul>
             <ul class="media-group" data-initial="u">
                 <li class="media-list-head">U</li>
@@ -387,9 +380,14 @@
         </div>
     </footer>
 
+    <div id="browser-limit">
+        <h2 class="bl-head">This presentation<br>only available on touch devices.</h2>
+    </div>
+
     <!--  Scripts-->
     <script src="../../vendor/vminpoly/parser.js"></script>
     <script src="../../vendor/vminpoly/tokenizer.js"></script>
+    <script src="../../vendor/moment/moment.js"></script>
     <script src="../../vendor/vminpoly/vminpoly.js"></script>
     <script src="../../vendor/jquery/dist/jquery.js"></script>
     <script src="../../vendor/jquery-timeago/jquery.timeago.js"></script>
@@ -398,8 +396,6 @@
     <script src="../../vendor/headroom.js/dist/headroom.js"></script>
     <script src="../../vendor/headroom.js/dist/jQuery.headroom.js"></script>
     <script src="../../vendor/formstone/dist/js/core.js"></script>
-    <script src="../../vendor/formstone/dist/js/transition.js"></script>
-    <script src="../../vendor/formstone/dist/js/background.js"></script>
     <script src="../../vendor/formstone/dist/js/touch.js"></script>
     <script src="../../vendor/formstone/dist/js/dropdown.js"></script>
     <script src="../../script/rb-proto.js"></script>
