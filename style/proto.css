@@ -9599,8 +9599,9 @@ footer.page-footer {
     .timeline .card .card-content-meta .meta-timeago {
       color: #947160; }
   .timeline .card .card-content-summary {
-    letter-spacing: 0.005em;
-    font-size: 15px; }
+    letter-spacing: 0.03em;
+    font-size: 1rem;
+    line-height: 1.5rem; }
   .timeline .card:last-of-type {
     margin-bottom: 3rem; }
     .timeline .card:last-of-type .card-action {
