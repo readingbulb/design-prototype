@@ -6419,7 +6419,8 @@ code {
     padding: 1rem; }
     .card .card-action a {
       color: #5c473c;
-      margin-right: 1rem;
+      margin-left: 0.5rem;
+      background-color: #FFF;
       -webkit-transition: color .3s ease;
       -moz-transition: color .3s ease;
       -o-transition: color .3s ease;
@@ -9441,6 +9442,8 @@ body.no-scroll {
   min-height: 100vh;
   padding-top: 1rem;
   z-index: 70; }
+#user-dashboard .subscribed-main, #single-content .subscribed-main {
+  padding-top: 4rem; }
 
 footer.page-footer {
   margin-top: 0;
@@ -9529,18 +9532,71 @@ footer.page-footer {
   padding: 0 1rem; }
 .timeline .card {
   margin: 0 0 1.5rem 0;
+  padding: 0 0 1.5rem 0;
   box-shadow: none;
-  background-color: #FAF7F4; }
+  background-color: #FAF7F4;
+  border-bottom: 1px solid rgba(215, 200, 193, 0.3); }
+  .timeline .card:last-child {
+    border-bottom: none; }
   .timeline .card .card-content {
-    padding: 1rem 0; }
+    padding: 0; }
     .timeline .card .card-content.no-pad-bottom {
       padding-bottom: 0; }
     .timeline .card .card-content.no-pad {
       padding: 0; }
+  .timeline .card .card-content-title {
+    margin: 0 0 1rem 0;
+    font-family: SansMedium, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 0; }
+    .timeline .card .card-content-title a {
+      color: inherit; }
+  .timeline .card .card-content-meta {
+    display: block;
+    max-height: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 4px 0 0 2rem;
+    position: relative; }
+    .timeline .card .card-content-meta .meta-source {
+      position: absolute;
+      top: 0rem;
+      left: 0;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      background-color: #FFF; }
+      .timeline .card .card-content-meta .meta-source img {
+        display: block;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 1rem;
+        height: 1rem; }
+    .timeline .card .card-content-meta .meta-from {
+      color: #5c473c; }
+      .timeline .card .card-content-meta .meta-from:after {
+        content: '\2022';
+        margin: 0 .3em; }
+    .timeline .card .card-content-meta .meta-timeago {
+      color: #947160; }
+  .timeline .card .card-content-summary {
+    display: block;
+    margin: 0 0 1rem 0;
+    color: #251c18;
+    min-height: 6rem;
+    max-height: 6rem; }
+    .timeline .card .card-content-summary span {
+      letter-spacing: 0.035em;
+      font-size: 1rem;
+      line-height: 1.5rem; }
   .timeline .card .card-action {
-    padding: 0;
+    padding: 0 0 0 0;
     border-top: none;
-    margin-bottom: .5rem; }
+    margin-top: -2rem; }
     .timeline .card .card-action:before, .timeline .card .card-action:after {
       content: " ";
       display: table; }
@@ -9549,11 +9605,9 @@ footer.page-footer {
     .timeline .card .card-action .card-action-link {
       display: inline-block;
       position: relative;
-      float: left;
+      float: right;
       height: 1.5rem;
-      width: 50%;
-      margin: 0;
-      padding: 0 1em;
+      width: 1.5rem;
       color: #5c473c;
       font-size: 11px;
       line-height: 1.5rem;
@@ -9564,44 +9618,9 @@ footer.page-footer {
         position: absolute;
         top: 0;
         bottom: 0;
+        height: 1.5rem;
+        width: 1.5rem;
         border: 1px solid #d7c8c1; }
-      .timeline .card .card-action .card-action-link:first-of-type:after {
-        right: 2px;
-        left: 0; }
-      .timeline .card .card-action .card-action-link:last-of-type:after {
-        left: 2px;
-        right: 0; }
-      .timeline .card .card-action .card-action-link .icon {
-        margin-right: 1em; }
-      .timeline .card .card-action .card-action-link .text {
-        letter-spacing: 0.03em;
-        text-transform: capitalize; }
-  .timeline .card .card-content-title {
-    margin: 0 0 1rem 0;
-    font-family: SansMedium, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 0; }
-    .timeline .card .card-content-title a {
-      color: inherit; }
-  .timeline .card .card-content-meta {
-    display: block;
-    max-height: 1.618rem;
-    height: 1.618rem;
-    overflow: hidden;
-    font-size: 13px;
-    line-height: 100%;
-    white-space: nowrap;
-    text-overflow: ellipsis; }
-    .timeline .card .card-content-meta .meta-from {
-      color: #5c473c; }
-      .timeline .card .card-content-meta .meta-from:after {
-        content: '\2022';
-        margin: 0 .3em; }
-    .timeline .card .card-content-meta .meta-timeago {
-      color: #947160; }
-  .timeline .card .card-content-summary {
-    letter-spacing: 0.03em;
-    font-size: 1rem;
-    line-height: 1.5rem; }
   .timeline .card:last-of-type {
     margin-bottom: 3rem; }
     .timeline .card:last-of-type .card-action {

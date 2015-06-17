@@ -6419,7 +6419,8 @@ code {
     padding: 1rem; }
     .card .card-action a {
       color: #5c473c;
-      margin-right: 1rem;
+      margin-left: 0.5rem;
+      background-color: #FFF;
       -webkit-transition: color .3s ease;
       -moz-transition: color .3s ease;
       -o-transition: color .3s ease;
