@@ -9585,12 +9585,12 @@ footer.page-footer {
       color: #947160; }
   .timeline .card .card-content-summary {
     display: block;
-    margin: 0 0 1rem 0;
+    margin: 1rem 0 0 0;
     color: #251c18;
     min-height: 6rem;
     max-height: 6rem; }
     .timeline .card .card-content-summary span {
-      letter-spacing: 0.035em;
+      letter-spacing: 0.025em;
       font-size: 1rem;
       line-height: 1.5rem; }
   .timeline .card .card-action {
