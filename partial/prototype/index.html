@@ -18,28 +18,28 @@
 
 <body id="user-dashboard" class="is-headroom">
 
-    <header class="navbar-fixed">
+    <header class="navbar">
 
         <div class="topbar-outer">
-            <div class="topbar-inner" id="topbar-brand">
+            <!-- <div class="topbar-inner" id="topbar-brand">
                 <h1 class="logotype">RB</h1>
-            </div>
+            </div> -->
         </div>
 
         <nav class="main-nav-outer">
 
             <ul class="main-nav-inner">
                 <li class="nav-list">
-                    <a class="nav-link active" href="index.html" ><span class="nav-icon fa fa-star-o"></span><span class="nav-text">&nbsp;Featured</span></a>
+                    <a class="nav-link active" href="index.html" ><span class="nav-text">&nbsp;Featured</span></a>
                 </li>
                 <li class="nav-list">
-                    <a class="nav-link" href="latest.html" ><span class="nav-icon fa fa-bell-o"></span><span class="nav-text">&nbsp;Latest</span></a>
+                    <a class="nav-link" href="latest.html" ><span class="nav-text">&nbsp;Latest</span></a>
                 </li>
                 <li class="nav-list">
-                    <a class="nav-link" href="subscribed.html" ><span class="nav-icon fa fa-thumb-tack"></span><span class="nav-text">&nbsp;Subscribed</span></a>
+                    <a class="nav-link" href="subscribed.html" ><span class="nav-text">&nbsp;Subscribed</span></a>
                 </li>
                 <li class="nav-list">
-                    <a class="nav-link filter-nav-toggler" href="#" ><span class="nav-icon fa fa-plus-square-o"></span><span class="nav-text">&nbsp;Filters</span></a>
+                    <a class="nav-link filter-nav-toggler" href="#" ><span class="nav-text">&nbsp;Filters</span></a>
                 </li>
             </ul>
         </nav>
@@ -87,22 +87,26 @@
                 <div class="col card-col s12 m4" id="feeds-outer">
                     <div class="card markup-model">
 
+                        <div class="card-meta">
+                            <span class="meta-source"><img alt=""></span>
+                            <span class="meta-from"></span>
+                            <span class="meta-timeago"></span>
+                        </div>
+
                         <div class="card-image"><img src=""></div>
+                        
                         <div class="card-content">
                             <h2 class="h3 card-content-title" ><a href=""></a></h2>
-                            <p class="card-content-meta">
-                                <span class="meta-source"><img alt=""></span>
-                                <span class="meta-from"></span>
-                                <span class="meta-timeago"></span>
-                            </p>
                         </div>
+                        
+                        <a class="card-content-summary">
+                            <span></span>
+                        </a>
+
                         <div class="card-action">
                             <a class="card-action-link" href="#"><span class="icon fa fa-bookmark-o"></a>
                             <a class="card-action-link" href="#"><span class="icon fa fa-external-link"></a>
                         </div>
-                        <a class="card-content-summary">
-                            <span></span>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -389,9 +393,9 @@
         </div>
     </footer>
 
-    <!-- <div id="browser-limit">
+    <div id="browser-limit">
         <h2 class="bl-head">This presentation<br>only available on touch devices.</h2>
-    </div> -->
+    </div>
 
     <!--  Scripts-->
     <script src="../../vendor/vminpoly/parser.js"></script>

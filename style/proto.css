@@ -341,126 +341,162 @@ td, th {
 /* ------ {{ base }} ------ */
 @font-face {
   font-family: 'SansRegular';
-  src: url('font/Neue Haas Grotesk Text W02 Regular.eot');
+  src: url('font/HelveticaNeueLTCom-Roman.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Text W02 Regular.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Text W02 Regular.woff') format('woff'), url('font/Neue Haas Grotesk Text W02 Regular.ttf') format('truetype'), url('font/Neue Haas Grotesk Text W02 Regular.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-Roman.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-Roman.woff') format('woff'), url('font/HelveticaNeueLTCom-Roman.ttf') format('truetype'), url('font/HelveticaNeueLTCom-Roman.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansRegularItalic';
-  src: url('font/Neue Haas Grotesk Text W02 Italic.eot');
+  src: url('font/HelveticaNeueLTCom-It.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Text W02 Italic.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Text W02 Italic.woff') format('woff'), url('font/Neue Haas Grotesk Text W02 Italic.ttf') format('truetype'), url('font/Neue Haas Grotesk Text W02 Italic.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-It.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-It.woff') format('woff'), url('font/HelveticaNeueLTCom-It.ttf') format('truetype'), url('font/HelveticaNeueLTCom-It.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansBlack';
-  src: url('font/Neue Haas Grotesk Display W02 Blk.eot');
+  src: url('font/HelveticaNeueLTCom-Blk.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 Blk.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 Blk.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 Blk.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 Blk.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-Blk.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-Blk.woff') format('woff'), url('font/HelveticaNeueLTCom-Blk.ttf') format('truetype'), url('font/HelveticaNeueLTCom-Blk.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansBlackItalic';
-  src: url('font/Neue Haas Grotesk Display W02 Blk It.eot');
+  src: url('font/HelveticaNeueLTCom-BlkIt.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 Blk It.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 Blk It.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 Blk It.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 Blk It.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-BlkIt.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-BlkIt.woff') format('woff'), url('font/HelveticaNeueLTCom-BlkIt.ttf') format('truetype'), url('font/HelveticaNeueLTCom-BlkIt.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansBold';
-  src: url('font/Neue Haas Grotesk Display W02 Bold.eot');
+  src: url('font/HelveticaNeueLTCom-Bd.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 Bold.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 Bold.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 Bold.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 Bold.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-Bd.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-Bd.woff') format('woff'), url('font/HelveticaNeueLTCom-Bd.ttf') format('truetype'), url('font/HelveticaNeueLTCom-Bd.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansBoldItalic';
-  src: url('font/Neue Haas Grotesk Display W02 Bold Italic.eot');
+  src: url('font/HelveticaNeueLTCom-BdIt.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 Bold Italic.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 Bold Italic.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 Bold Italic.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 Bold Italic.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-BdIt.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-BdIt.woff') format('woff'), url('font/HelveticaNeueLTCom-BdIt.ttf') format('truetype'), url('font/HelveticaNeueLTCom-BdIt.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansExtraLight';
-  src: url('font/Neue Haas Grotesk Display W02 XtraLt.eot');
+  src: url('font/HelveticaNeueLTCom-UltLt.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 XtraLt.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 XtraLt.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 XtraLt.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 XtraLt.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-UltLt.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-UltLt.woff') format('woff'), url('font/HelveticaNeueLTCom-UltLt.ttf') format('truetype'), url('font/HelveticaNeueLTCom-UltLt.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansExtraLightItalic';
-  src: url('font/Neue Haas Grotesk Display W02 XtraLt It.eot');
+  src: url('font/HelveticaNeueLTCom-UltLtIt.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 XtraLt It.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 XtraLt It.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 XtraLt It.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 XtraLt It.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-UltLtIt.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-UltLtIt.woff') format('woff'), url('font/HelveticaNeueLTCom-UltLtIt.ttf') format('truetype'), url('font/HelveticaNeueLTCom-UltLtIt.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansMedium';
-  src: url('font/Neue Haas Grotesk Text W02 Medium.eot');
+  src: url('font/HelveticaNeueLTCom-Md.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Text W02 Medium.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Text W02 Medium.woff') format('woff'), url('font/Neue Haas Grotesk Text W02 Medium.ttf') format('truetype'), url('font/Neue Haas Grotesk Text W02 Medium.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-Md.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-Md.woff') format('woff'), url('font/HelveticaNeueLTCom-Md.ttf') format('truetype'), url('font/HelveticaNeueLTCom-Md.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansMediumItalic';
-  src: url('font/Neue Haas Grotesk Text W02 Medium It.eot');
+  src: url('font/HelveticaNeueLTCom-MdIt.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Text W02 Medium It.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Text W02 Medium It.woff') format('woff'), url('font/Neue Haas Grotesk Text W02 Medium It.ttf') format('truetype'), url('font/Neue Haas Grotesk Text W02 Medium It.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-MdIt.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-MdIt.woff') format('woff'), url('font/HelveticaNeueLTCom-MdIt.ttf') format('truetype'), url('font/HelveticaNeueLTCom-MdIt.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansThin';
-  src: url('font/Neue Haas Grotesk Display W02 Thin.eot');
+  src: url('font/HelveticaNeueLTCom-Th.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 Thin.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 Thin.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 Thin.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 Thin.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-Th.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-Th.woff') format('woff'), url('font/HelveticaNeueLTCom-Th.ttf') format('truetype'), url('font/HelveticaNeueLTCom-Th.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansThinItalic';
-  src: url('font/Neue Haas Grotesk Display W02 Th It.eot');
+  src: url('font/HelveticaNeueLTCom-ThIt.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 Th It.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 Th It.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 Th It.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 Th It.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-ThIt.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-ThIt.woff') format('woff'), url('font/HelveticaNeueLTCom-ThIt.ttf') format('truetype'), url('font/HelveticaNeueLTCom-ThIt.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansLight';
-  src: url('font/Neue Haas Grotesk Display W02 Lt.eot');
+  src: url('font/HelveticaNeueLTCom-Lt.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 Lt.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 Lt.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 Lt.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 Lt.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-Lt.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-Lt.woff') format('woff'), url('font/HelveticaNeueLTCom-Lt.ttf') format('truetype'), url('font/HelveticaNeueLTCom-Lt.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: 'SansLightItalic';
-  src: url('font/Neue Haas Grotesk Display W02 Lt It.eot');
+  src: url('font/HelveticaNeueLTCom-LtIt.eot');
   /* IE9 Compat Modes */
-  src: url('font/Neue Haas Grotesk Display W02 Lt It.eot?#iefix') format('embedded-opentype'), url('font/Neue Haas Grotesk Display W02 Lt It.woff') format('woff'), url('font/Neue Haas Grotesk Display W02 Lt It.ttf') format('truetype'), url('font/Neue Haas Grotesk Display W02 Lt It.svg') format('svg');
+  src: url('font/HelveticaNeueLTCom-LtIt.eot?#iefix') format('embedded-opentype'), url('font/HelveticaNeueLTCom-LtIt.woff') format('woff'), url('font/HelveticaNeueLTCom-LtIt.ttf') format('truetype'), url('font/HelveticaNeueLTCom-LtIt.svg') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'SerifRegular';
+  src: url('font/PlantinStd.eot');
+  /* IE9 Compat Modes */
+  src: url('font/PlantinStd.eot?#iefix') format('embedded-opentype'), url('font/PlantinStd.woff') format('woff'), url('font/PlantinStd.ttf') format('truetype'), url('font/PlantinStd.svg') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'SerifRegularItalic';
+  src: url('font/PlantinStd-Italic.eot');
+  /* IE9 Compat Modes */
+  src: url('font/PlantinStd-Italic.eot?#iefix') format('embedded-opentype'), url('font/PlantinStd-Italic.woff') format('woff'), url('font/PlantinStd-Italic.ttf') format('truetype'), url('font/PlantinStd-Italic.svg') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'SerifLight';
+  src: url('font/PlantinStd-Light.eot');
+  /* IE9 Compat Modes */
+  src: url('font/PlantinStd-Light.eot?#iefix') format('embedded-opentype'), url('font/PlantinStd-Light.woff') format('woff'), url('font/PlantinStd-Light.ttf') format('truetype'), url('font/PlantinStd-Light.svg') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'SerifLightItalic';
+  src: url('font/PlantinStd-LightItalic.eot');
+  /* IE9 Compat Modes */
+  src: url('font/PlantinStd-LightItalic.eot?#iefix') format('embedded-opentype'), url('font/PlantinStd-LightItalic.woff') format('woff'), url('font/PlantinStd-LightItalic.ttf') format('truetype'), url('font/PlantinStd-LightItalic.svg') format('svg');
   /* Legacy iOS */
   font-style: normal;
   font-weight: normal; }
@@ -6285,7 +6321,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: SansBold, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-top: 1.618rem;
   margin-bottom: 0;
-  line-height: 1.618rem; }
+  line-height: 1.618rem;
+  letter-spacing: -0.005em; }
 
 h1, .h1 {
   font-size: 4.242rem;
@@ -6293,11 +6330,7 @@ h1, .h1 {
   @media only screen and (max-width : 600px) {
     h1, .h1 {
       font-size: 2.828rem;
-      line-height: 3.236rem;
-      letter-spacing: -0.025em; } }
-  @media only screen and (min-width : 601px) {
-    h1, .h1 {
-      letter-spacing: 0.025em; } }
+      line-height: 3.236rem; } }
 
 h2, .h2 {
   font-size: 2.828rem;
@@ -6305,11 +6338,7 @@ h2, .h2 {
   @media only screen and (max-width : 600px) {
     h2, .h2 {
       font-size: 2.121rem;
-      line-height: 2.427rem;
-      letter-spacing: -0.025em; } }
-  @media only screen and (min-width : 601px) {
-    h2, .h2 {
-      letter-spacing: 0.025em; } }
+      line-height: 2.427rem; } }
 
 h3, .h3 {
   font-size: 1.414rem; }
@@ -6348,16 +6377,16 @@ code {
   padding: 1rem;
   margin: 1rem 0 2rem 0;
   border-radius: 2px;
-  background-color: #FAF7F4; }
+  background-color: #FFFFFF; }
 
 .card {
   position: relative;
   overflow: hidden;
   margin: 1rem 0 2rem 0;
-  background-color: #FAF7F4;
+  background-color: #FFFFFF;
   border-radius: 0; }
   .card .card-title {
-    color: #FAF7F4;
+    color: #FFFFFF;
     font-size: 24px;
     font-weight: 300; }
     .card .card-title.activator {
@@ -6419,7 +6448,6 @@ code {
     padding: 1rem; }
     .card .card-action a {
       color: #5c473c;
-      margin-left: 0.5rem;
       background-color: #FFF;
       -webkit-transition: color .3s ease;
       -moz-transition: color .3s ease;
@@ -6432,7 +6460,7 @@ code {
   .card .card-reveal {
     padding: 1rem;
     position: absolute;
-    background-color: #FAF7F4;
+    background-color: #FFFFFF;
     width: 100%;
     overflow-y: auto;
     top: 100%;
@@ -9438,18 +9466,18 @@ body.no-scroll {
 
 #user-dashboard main, #single-content main {
   position: relative;
-  background-color: #FAF7F4;
+  background-color: #FFFFFF;
   min-height: 100vh;
-  padding-top: 3rem;
-  z-index: 70; }
+  z-index: 70;
+  padding-top: 1rem; }
 #user-dashboard .subscribed-main, #single-content .subscribed-main {
   padding-top: 4rem; }
 
 footer.page-footer {
   margin-top: 0;
   margin-bottom: 3.5rem;
-  padding: 1rem 0 0 0;
-  background-color: #372a24; }
+  padding: 1rem 0;
+  background-color: #DDD; }
   footer.page-footer .footer-copyright {
     font-size: 12px;
     text-align: center;
@@ -9460,6 +9488,9 @@ footer.page-footer {
 
 .is-headroom footer.page-footer {
   margin-bottom: 0; }
+
+.navbar-fixed + main {
+  padding-top: 3rem; }
 
 #main #main-preloader {
   z-index: 80;
@@ -9534,7 +9565,7 @@ footer.page-footer {
   margin: 0 0 1.5rem 0;
   padding: 0 0 1.5rem 0;
   box-shadow: none;
-  background-color: #FAF7F4;
+  background-color: #FFFFFF;
   border-bottom: 1px solid rgba(215, 200, 193, 0.3); }
   .timeline .card:last-child {
     border-bottom: none; }
@@ -9548,12 +9579,13 @@ footer.page-footer {
     .timeline .card .card-content.no-pad {
       padding: 0; }
   .timeline .card .card-content-title {
-    margin: 0 0 1rem 0;
     font-family: SansMedium, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 0; }
+    font-size: 1.3rem;
+    margin: 0 0 1rem 0;
+    color: #303030; }
     .timeline .card .card-content-title a {
       color: inherit; }
-  .timeline .card .card-content-meta {
+  .timeline .card .card-meta {
     display: block;
     max-height: 2rem;
     height: 2rem;
@@ -9562,44 +9594,53 @@ footer.page-footer {
     line-height: 100%;
     white-space: nowrap;
     text-overflow: ellipsis;
-    padding: 4px 0 0 2rem;
+    padding: 0 0 0 2rem;
+    margin: 0 0 .5rem 0;
     position: relative; }
-    .timeline .card .card-content-meta .meta-source {
+    .timeline .card .card-meta .meta-source {
       position: absolute;
-      top: 0rem;
+      top: .25rem;
       left: 0;
       width: 1.5rem;
       height: 1.5rem;
       border-radius: 50%;
       background-color: #FFF; }
-      .timeline .card .card-content-meta .meta-source img {
+      .timeline .card .card-meta .meta-source img {
         display: block;
         position: absolute;
         top: 4px;
         left: 4px;
         width: 1rem;
         height: 1rem; }
-    .timeline .card .card-content-meta .meta-from {
+    .timeline .card .card-meta .meta-from, .timeline .card .card-meta .meta-timeago {
+      display: inline-block;
+      position: relative;
+      top: 1.1rem;
+      -webkit-transform: translateY(-0.5rem);
+      -ms-transform: translateY(-0.5rem);
+      transform: translateY(-0.5rem); }
+    .timeline .card .card-meta .meta-from {
       color: #5c473c; }
-      .timeline .card .card-content-meta .meta-from:after {
-        content: '\2022';
+      .timeline .card .card-meta .meta-from:after {
+        content: ' \2022';
         margin: 0 .3em; }
-    .timeline .card .card-content-meta .meta-timeago {
+    .timeline .card .card-meta .meta-timeago {
       color: #947160; }
   .timeline .card .card-content-summary {
+    font-family: SerifRegular, Georgia, serif;
+    letter-spacing: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
     display: block;
     margin: 1rem 0 0 0;
-    color: #251c18;
+    color: #666;
     min-height: 6rem;
     max-height: 6rem; }
-    .timeline .card .card-content-summary span {
-      letter-spacing: 0.025em;
-      font-size: 1rem;
-      line-height: 1.5rem; }
   .timeline .card .card-action {
-    padding: 0 0 0 0;
     border-top: none;
-    margin-top: -2rem; }
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: none; }
     .timeline .card .card-action:before, .timeline .card .card-action:after {
       content: " ";
       display: table; }
@@ -9608,9 +9649,10 @@ footer.page-footer {
     .timeline .card .card-action .card-action-link {
       display: inline-block;
       position: relative;
-      float: right;
-      height: 1.5rem;
-      width: 1.5rem;
+      margin-right: 0.5rem;
+      float: left;
+      height: 2rem;
+      width: 2rem;
       color: #5c473c;
       font-size: 11px;
       line-height: 1.5rem;
@@ -9621,9 +9663,13 @@ footer.page-footer {
         position: absolute;
         top: 0;
         bottom: 0;
-        height: 1.5rem;
-        width: 1.5rem;
-        border: 1px solid #d7c8c1; }
+        height: 100%;
+        width: 100%;
+        border: 1px solid #d7c8c1;
+        border-radius: 50%; }
+      .timeline .card .card-action .card-action-link .icon {
+        position: relative;
+        top: 4px; }
   .timeline .card:last-of-type {
     margin-bottom: 3rem; }
     .timeline .card:last-of-type .card-action {
@@ -9801,29 +9847,33 @@ footer.page-footer {
 
 .main-nav-outer {
   color: #4a3930;
-  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05);
-  background-color: #FFF;
+  border-bottom: 1px solid #F0F0F0;
   width: 100%;
-  height: 3.5rem;
-  line-height: 3.5rem; }
+  height: 2.5rem;
+  line-height: 2.5rem; }
   .navbar-fixed .main-nav-outer {
     position: fixed;
     bottom: 0;
     z-index: 100; }
   .main-nav-outer .main-nav-inner {
     margin: 0 auto;
-    padding: 0;
+    padding: 0 1rem;
     list-style: none outside none; }
     .main-nav-outer .main-nav-inner .nav-list {
-      padding: 0;
-      width: 25%;
+      padding: 0 .5rem 0 0;
+      margin: 0 0 0 0;
       float: left;
-      text-align: center; }
+      text-align: center;
+      height: 2.5rem; }
     .main-nav-outer .main-nav-inner .nav-link {
       display: block;
-      font-size: 12px;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      font-family: SansMedium, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 0.01em;
+      letter-spacing: 0.075em;
       padding: 0;
       color: rgba(74, 57, 48, 0.4); }
       .main-nav-outer .main-nav-inner .nav-link:before, .main-nav-outer .main-nav-inner .nav-link:after {
@@ -9834,15 +9884,11 @@ footer.page-footer {
       .main-nav-outer .main-nav-inner .nav-link.active {
         color: #4a3930; }
     .main-nav-outer .main-nav-inner .nav-text, .main-nav-outer .main-nav-inner .nav-icon {
-      display: block;
       width: 100%;
-      line-height: 1.5rem;
-      height: 1.5rem;
       text-align: center; }
-    .main-nav-outer .main-nav-inner .nav-text {
-      font-size: 11px; }
     .main-nav-outer .main-nav-inner .nav-icon {
-      margin: 4px 0 -2px 0; }
+      margin: 4px 0 -2px 0;
+      display: none; }
 
 .filter-nav-outer .filter-nav-inner {
   z-index: 90;
@@ -9866,7 +9912,7 @@ footer.page-footer {
     background-color: rgba(55, 42, 36, 0);
     z-index: -10; }
   .filter-nav-outer .filter-nav-inner.active {
-    bottom: 3.5rem; }
+    bottom: 2.5rem; }
     .filter-nav-outer .filter-nav-inner.active:before {
       background-color: rgba(55, 42, 36, 0.5);
       pointer-events: initial; }
@@ -10058,16 +10104,13 @@ footer.page-footer {
     animation-name: topbarSlideUp; }
 
 .topbar-outer {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
-  background-color: #FFF;
+  background-color: #DDD;
   width: 100%;
-  height: 1.75rem;
-  line-height: 1.75rem; }
+  height: 3rem; }
   .navbar-fixed .topbar-outer {
     position: fixed;
     top: 0;
-    z-index: 100;
-    padding: 6px 0; }
+    z-index: 100; }
   .topbar-outer .topbar-inner {
     position: relative;
     width: 26px;
