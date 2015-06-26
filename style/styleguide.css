@@ -6322,7 +6322,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 1.618rem;
   margin-bottom: 0;
   line-height: 1.618rem;
-  letter-spacing: -0.005em; }
+  letter-spacing: 0.01em; }
 
 h1, .h1 {
   font-size: 4.242rem;
